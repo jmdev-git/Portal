@@ -2,20 +2,20 @@ export const metadata = { title: "Dashboard • CampusConnect" };
 
 const announcements = [
   { id: 1, title: "Library Renovation", body: "The main library will be closed next week for upgrades." },
-  { id: 2, title: "Exam Schedule", body: "Midterms are scheduled for Oct 12–19. Check your course pages." },
+  { id: 2, title: "Exam Schedule", body: "Midterms are scheduled for Dec 12–19. Check your course pages." },
   { id: 3, title: "Cafeteria Menu", body: "New healthy options added to the cafeteria this month." },
 ];
 
 const events = [
-  { id: 1, date: "Oct 5", name: "Career Fair", place: "Student Center" },
-  { id: 2, date: "Oct 10", name: "AI Workshop", place: "Engineering Hall" },
-  { id: 3, date: "Oct 22", name: "Alumni Talk", place: "Auditorium" },
+  { id: 1, date: "Dec. 5", name: "Career Fair", place: "Student Center" },
+  { id: 2, date: "Dec. 10", name: "AI Workshop", place: "Engineering Hall" },
+  { id: 3, date: "Dec. 22", name: "Alumni Talk", place: "Auditorium" },
 ];
 
 const courses = [
-  { id: 1, code: "CS101", name: "Intro to CS", instructor: "Dr. Smith" },
-  { id: 2, code: "MATH221", name: "Linear Algebra", instructor: "Prof. Nguyen" },
-  { id: 3, code: "HIST200", name: "Modern History", instructor: "Dr. Patel" },
+  { id: 1, code: "MT101", name: "Multimedia Technologies", instructor: "Prof. Smith" },
+  { id: 2, code: "WD101", name: "Web Development 1", instructor: "Prof. Nguyen" },
+  { id: 3, code: "GEEL2", name: "The Entrepreneurial Mind", instructor: "Prof. Patel" },
 ];
 
 export default function DashboardPage() {
